@@ -87,7 +87,9 @@ nav a {
 }
 /* Main section style */
 main {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
 }
 main section {
   margin-top: 130px;
@@ -183,4 +185,27 @@ footer{
    color: #FFF8F3;
    padding: 130px 230px;
    margin-top: 100px;
+   gap: 100px;
+}
+.footer-column{
+  width: 50%;
+}
+.section-description,.social-links{
+  text-align: left;
+
+}
+.contact input[type="text"],input[type="email"],textarea{
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  color: #757575;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.contact input[type="submit"]{
+  width: auto;
+}
+.social-links a{
+  margin-right: 24px;
 }
